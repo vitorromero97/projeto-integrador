@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background: #dc9999;
+}
+.cabecalho-imagem {
+  height: 32px;
+}
+.cabecalho-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px;
+}
+.cabecalho-menu-item {
+  font-family: "Inter", sem serifa;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.conteudo {
+  border-top: 0.5px solid #f5f5f5;
+}
+.conteudo-imagem-produto {
+  margin-left: 89px;
+}
+.conteudo-imagem-produto-carrossel-phone {
+  width: 586px;
+  height: 390px;
+  margin-top: 80px;
+}
+
+.conteudo-principal-titulo-escrito {
+  position: absolute;
+  width: 633px;
+  height: 96px;
+  left: 785px;
+  top: 139px;
+  right: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+.conteudo-principal-titulo-paragrafo {
+  position: absolute;
+  width: 642px;
+  height: 561px;
+  left: 790px;
+  top: 360px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.preco {
+  position: absolute;
+  width: 228px;
+  height: 76px;
+  left: 790px;
+  top: 280px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 11px;
+
+  color: #000000;
+}
+.conteudo-botao {
+  width: 158px;
+  height: 43px;
+  right: 94;
+  top: 280px;
+}
+
+.especificacoes-caixa {
+  position: absolute;
+  width: 338px;
+  height: 185px;
+  left: 70px;
+  top: 582px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.especificacoes-especificacao {
+  position: absolute;
+  width: 305px;
+  height: 191px;
+  left: 441px;
+  top: 582px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
